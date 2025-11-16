@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <style>
-  .product-card img {
-    width: 200px;     
-    height: 200px;    
-    object-fit: cover; 
-    border-radius: 8px;
-  }
-</style>
+    .product-card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
   <title>GREEN MOM SWEETS — магазин корисних солодощів</title>
 </head>
 
@@ -35,7 +35,7 @@
     </div>
   </header>
   <main>
-     <!--Головний блок (hero section): короткий опис і заклик до дії -->
+    <!--Головний блок (hero section): короткий опис і заклик до дії -->
     <section id="hero">
       <h1>Green Mom Sweets</h1>
       <h2>
@@ -75,40 +75,82 @@
         ✨ Ми — про чесну солодкість, справжній смак і любов до кожного зернятка какао.</p>
     </section>
     <!--Блок "Продукція" -->
+
     <section id="services">
-      <h2>Асортимент</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="images/bars_set_mini.jpg">
-          <h3>Набір батончиків міні</h3>
-          <p class="price">250 UAH</p>
-          <button>Купити</button>
-        </div><br>
 
-        <div class="product-card">
-          <img src="images/bars_set_maxi.jpg">
-          <h3>Набір батончиків максі</h3>
-          <p class="price">350 UAH</p>
-          <button>Купити</button>
-        </div><br>
+      <!-- Таблиця з прайсом -->
+      <h3>Прайс-лист</h3>
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>Назва</th>
+            <th>Опис</th>
+            <th>Вага / набір</th>
+            <th>Ціна</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Набір батончиків міні</td>
+            <td>3 штуки з різними смаками</td>
+            <td>150 г</td>
+            <td>₴250</td>
+          </tr>
+          <tr>
+            <td>Набір батончиків максі</td>
+            <td>6 батончиків з фініками та горіхами</td>
+            <td>300 г</td>
+            <td>₴350</td>
+          </tr>
+          <tr>
+            <td>Асорті трюфелів</td>
+            <td>Кокос, какао, мигдаль</td>
+            <td>200 г</td>
+            <td>₴270</td>
+          </tr>
+          <tr>
+            <td>Крафтовий шоколад</td>
+            <td>Темний 75% або молочний</td>
+            <td>100 г</td>
+            <td>₴140</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <h2>Асортимент</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/bars_set_mini.jpg">
+        <h3>Набір батончиків міні</h3>
+        <p class="price">250 UAH</p>
+        <button>Купити</button>
+      </div><br>
 
-        <div class="product-card">
-          <img src="images/truffles_set.jpg">
-          <h3>Асорті трюфелів</h3>
-          <p class="price">270 UAH</p>
-          <button>Купити</button>
-        </div><br>
+      <div class="product-card">
+        <img src="images/bars_set_maxi.jpg">
+        <h3>Набір батончиків максі</h3>
+        <p class="price">350 UAH</p>
+        <button>Купити</button>
+      </div><br>
 
-        <div class="product-card">
-          <img src="images/chocolote.jpg">
-          <h3>Крафтовий шоколад</h3>
-          <h4>В асортименті: чорний 75%, молочний</h4>
-          <p class="price">140 UAH</p>
-          <button>Купити</button>
-        </div><br>
-      </div>
+      <div class="product-card">
+        <img src="images/truffles_set.jpg">
+        <h3>Асорті трюфелів</h3>
+        <p class="price">270 UAH</p>
+        <button>Купити</button>
+      </div><br>
 
-    </section><section id="delivery">
+      <div class="product-card">
+        <img src="images/chocolote.jpg">
+        <h3>Крафтовий шоколад</h3>
+        <h4>В асортименті: чорний 75%, молочний</h4>
+        <p class="price">140 UAH</p>
+        <button>Купити</button>
+      </div><br>
+    </div>
+
+    </section>
+    <section id="delivery">
       <h2>Доставка</h2>
       <p>Доставляємо по всій Україні за 1–3 дні. Безкоштовно при замовленні від 700 грн.</p>
     </section>
@@ -118,7 +160,7 @@
       <p>Пишіть нам: <a href="mailto:hello@greenmomsweet.ua">hello@greenmomsweet.ua</a></p>
     </section>
   </main>
-   <!--Підвал сайту -->
+  <!--Підвал сайту -->
   <footer>
     <p>© 2025 Green Mom Sweet — корисні солодощі майбутнього</p>
   </footer>
